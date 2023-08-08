@@ -39,7 +39,7 @@ export default function Os() {
           {items.map((item, index) => (
             <tr key={index} className="text-center mx-4">
               <td className="px-4">{index + 1}</td>
-              <td className="px-4">{item.name}a</td>
+              <td className="px-4">{item.name}</td>
               <td className="px-4">{item.department}</td>
               <td className="px-4">{item.sector}</td>
               <td className="px-4">{item.address}</td>
