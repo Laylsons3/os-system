@@ -41,7 +41,7 @@ export default function CardOs() {
     console.log("data", data);
     localStorage.setItem("_os_data", JSON.stringify(data));
     // Após o envio, você pode redefinir o estado do formulário
-    // setFormData(initialFormData);
+    setFormData(initialFormData);
   };
 
   return (
